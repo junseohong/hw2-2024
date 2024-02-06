@@ -61,20 +61,26 @@ div {
 
 .blue {
   background-color: #0000FF;
-  color: #C4C4C4; /* Fixes color contrast for accessibility */
+  color: #C4C4C4;
+}
+
+.blue h1,
+.blue h2,
+.blue p {
+    color: #C4C4C4; /* Specifically targeting text within blue divs for improved contrast */
 }
 
 .yellow {
   background-color: #FFFF00;
-  color: #707070; /* Fixes color contrast for accessibility */
+  color: #707070; 
 }
 
 .green {
-  background-color: #00EB00; /* Other green values: #008500, #00D800 */
+  background-color: #008500; 
 }
 
 footer {
-  background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
+  background: linear-gradient(90deg, #000000, #0000ff 25%, #0066ff 70%, #000000);
   border: 5px solid #FFFFFF;
 }
 
